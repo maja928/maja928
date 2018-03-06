@@ -206,8 +206,8 @@ input[type=text] {
 }
 
 .gallery{
-    width: 100%;
-    margin: 140px;
+    width: 50%;
+    margin: 100px;
 }
 
 /* Bordered form */
