@@ -1,0 +1,294 @@
+p{
+    color: black
+}
+
+body {
+    background-color : ghostwhite
+}
+
+
+h1{color:black;
+    
+
+}
+
+h1{
+    font-size: 22px;
+}
+
+p {
+    font-family:'Lora',serif;
+    font-size: 18px;
+    color:black;
+}
+
+img{
+    width: 20%;
+}
+
+nav{
+   text-align: center; 
+    
+}
+nav ul{
+    list-style:none;
+}
+nav ul li{
+    display: inline;
+    background-color : skyblue;
+        padding: 5px 10px 5px 10px;
+}
+
+nav ul li.selected{
+    background-color : black;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    font-weight:inherit;
+    
+}
+a:link, a:visited{
+    text-decoration:none;
+    color: white;
+    
+}
+a:hover{
+    color:pink
+}
+footer{
+    text-align: center;
+}
+.starttext{
+    padding: 10px;
+    background-color: ghostwhite;
+    width: 50%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.startsidarubrik{
+    text-align: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: table;
+
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.bokbox{
+    width: 40%;
+    border-radius: 5px;
+    background-color: floralwhite;
+    margin: 10px 0px 10px 240px;
+    padding: 30px 0px 40px 91px;
+}
+
+#name, #email, #phone, #street, #city, #post-code, #country, #comments{
+    width: 60%;
+    font-size: 0.8em;
+}
+
+.map{
+    width: 100%;
+    margin: 100px auto;
+}
+
+#comments{
+    height: 60px;
+    width: 300px;
+    font-size: 0.9em;
+    margin-top: 20px;
+    resize: none;
+}
+
+.p1{
+    font-family: cursive
+}
+
+.gallery{
+    width: 100%;
+    margin: 140px;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+label{
+    text-align: right;
+    display: inline-block;
+    width: 500px;
+    
+}
+
+.namn{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:pink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/*  cancel knapp  */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: pink;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: auto;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 50%;
+}
+
+/* lägg till padding containers */
+.container {
+    padding: 16px;
+    
+}
+
+/*  glömt lösenord text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
