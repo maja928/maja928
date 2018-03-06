@@ -13,13 +13,14 @@ h1{color:black;
 }
 
 h1{
-    font-size: 22px;
+    font-size: 35px;
 }
 
 p {
     font-family:'Lora',serif;
-    font-size: 18px;
+    font-size: 28px;
     color:black;
+    
 }
 
 img{
@@ -27,7 +28,8 @@ img{
 }
 
 nav{
-   text-align: center; 
+   text-align: center;
+    
     
 }
 nav ul{
@@ -36,7 +38,7 @@ nav ul{
 nav ul li{
     display: inline;
     background-color : skyblue;
-        padding: 5px 10px 5px 10px;
+        padding: 10px 10px 10px;
 }
 
 nav ul li.selected{
